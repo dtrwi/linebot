@@ -1,0 +1,10 @@
+[app]
+host = "localhost"
+port = 3000
+name = "linebot"
+
+[postgres]
+is_enabled = false
+url = "postgres://username:password@host:port/db"
+max_idle_connections = 10
+max_open_connections = 10
